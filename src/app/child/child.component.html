@@ -1,0 +1,16 @@
+
+<h2>Parent-to-child</h2>
+<p style="color: blue;" > name recieved from parent:{{ name }} </p>
+
+<hr>
+
+<hr>
+
+
+<h2>message to Parent (child-to-parent)</h2>
+<input type="text" [(ngModel)]="message" (input)="textChanged()" >
+
+{{message}}
+<button>Send</button>
+
+
